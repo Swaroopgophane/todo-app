@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Work+Sans:wght@400;500&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body{
+    background: rgb(12, 7, 30);
+}
+
+.container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+    padding-bottom: 50px;
+}
+.inner-container
+{
+    width: 30%;
+   
+}
+.inner-container .heading
+{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.Item-container
+{
+    background: #fff;
+    width: 100%;
+    padding: 25px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.input-group input
+{
+    width: 70%;
+    height: 35px;
+    padding-left: 10px;
+    outline: none;
+    font-size: 16px;
+}
+.input-group input:focus
+{
+    box-shadow: rgba(0, 0, 0, 0.396)0px 2px 4px 2px;
+    border: none;
+}
+
+.input-group .addbtn
+{
+    margin-left: 20px;
+    padding: 10px 12px;
+    border: none;
+    background: rgb(185, 17, 84);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.tasksection
+{
+    background: #fff;
+    width: 100%;
+    border-radius: 5px;
+    padding: 25px;
+   
+}
+
+.task
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid rgb(148, 138, 138);
+}
+.task span
+{
+    word-wrap: break-word;
+    font-size: 18px;
+    text-transform: capitalize;
+    width: 90%;
+}
+.task button
+{
+    background: rgb(185, 17, 84);
+    color: #fff;
+    padding:8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.task button i
+{
+    font-size: 16px;
+}
+.remBtn
+{
+    margin-top: 20px;
+    padding: 10px 12px;
+    border: none;
+    background: rgb(185, 17, 84);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
+}
